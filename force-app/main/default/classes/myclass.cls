@@ -1,9 +1,9 @@
 public with sharing class myclass {
-	public myclass() {
+    public myclass() {
 
-	}
+    }
 
-	public String getAppVersion() {
-		return '2.0.1';
-	}
+    public String getAppVersion() {
+        return '2.0.2';
+    }
 }
