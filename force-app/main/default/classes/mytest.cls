@@ -3,7 +3,7 @@ private class mytest {
 
     @isTest
     static void myUnitTest() {
-        myclass demo = new myclass();
-        System.assertEquals(demo.getAppVersion(), '2.0.2');
+        //myclass demo = new myclass();
+        System.assertEquals(myclass.getDFYear(), '2017');
     }
 }

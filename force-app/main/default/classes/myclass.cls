@@ -2,8 +2,8 @@ public with sharing class myclass {
     public myclass() {
 
     }
-
-    public String getAppVersion() {
-        return '2.0.2';
+@auraEnabled
+    public static String getDFYear() {
+        return '2017';
     }
 }

@@ -1,6 +1,7 @@
 {
-    "orgName": "wade.wegner Example",
+    "orgName": "Dreamforce",
     "edition": "Developer",
+    "language":"en",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
