@@ -2,6 +2,7 @@
     "orgName": "Dreamforce",
     "edition": "Developer",
     "language":"en",
+    "country":"US",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
