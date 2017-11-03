@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="myclass" >
+	<aura:attribute name="DFyear" type="String" Default=""/>
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+	<lightning:card>
+		<p class="slds-p-horizontal_small">
+			Dreamforce {!v.DFyear} is happening NOW!
+		</p>
+	</lightning:card>
+</aura:component>

@@ -24,4 +24,4 @@ script:
 - sfdx force:apex:test:run -u ciorg -c -r human
 - sfdx force:org:delete -u ciorg -p
 - sfdx force:source:convert  -d mdapi
-- sfdx force:mdapi:deploy -d mdapi -f package.zip -u $USERNAMETARGET -e true
+- sfdx force:mdapi:deploy -d mdapi -f package.zip -u $USERNAMETARGET -e true -w 1
